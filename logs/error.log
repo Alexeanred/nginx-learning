@@ -1,0 +1,131 @@
+2023/10/18 12:50:46 [error] 7328#4272: *1 CreateFile() "C:\Users\duyti\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/10/18 13:03:06 [error] 11408#4572: *4 CreateFile() "C:\Users\duyti\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/18 13:03:13 [error] 11408#4572: *7 CreateFile() "C:\Users\duyti\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"
+2023/10/18 13:36:07 [emerg] 8476#12620: invalid number of arguments in "root" directive in C:\Users\duyti\nginx-1.24.0/conf/nginx.conf:4
+2023/10/18 13:40:56 [emerg] 13032#17228: invalid number of arguments in "root" directive in C:\Users\duyti\nginx/conf/nginx.conf:4
+2023/10/18 13:41:30 [emerg] 1908#4200: invalid number of arguments in "root" directive in C:\Users\duyti\nginx/conf/nginx.conf:4
+2023/10/18 13:41:37 [emerg] 10292#20004: invalid number of arguments in "root" directive in C:\Users\duyti\nginx/conf/nginx.conf:4
+2023/10/18 13:43:46 [emerg] 16820#3096: invalid number of arguments in "root" directive in C:\Users\duyti\nginx/conf/nginx.conf:4
+2023/10/18 13:44:19 [notice] 16304#8996: signal process started
+2023/10/18 13:44:19 [error] 16304#8996: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 13:45:52 [notice] 19420#13996: signal process started
+2023/10/18 13:45:52 [error] 19420#13996: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 13:45:58 [emerg] 15760#17332: unexpected ";" in C:\Users\duyti\nginx/conf/nginx.conf:8
+2023/10/18 13:46:10 [emerg] 14088#5940: unexpected "}" in C:\Users\duyti\nginx/conf/nginx.conf:10
+2023/10/18 13:46:19 [notice] 14772#19632: signal process started
+2023/10/18 13:46:19 [error] 14772#19632: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 13:49:29 [notice] 17192#11824: signal process started
+2023/10/18 13:49:29 [error] 17192#11824: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 13:51:37 [notice] 15728#14424: signal process started
+2023/10/18 13:51:37 [error] 15728#14424: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 13:55:49 [notice] 10540#12824: signal process started
+2023/10/18 13:55:49 [error] 10540#12824: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 13:56:19 [notice] 1076#11868: signal process started
+2023/10/18 13:56:19 [error] 1076#11868: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 13:56:26 [notice] 12580#2128: signal process started
+2023/10/18 13:56:26 [error] 12580#2128: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 14:00:27 [notice] 19428#14648: signal process started
+2023/10/18 14:00:27 [error] 19428#14648: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 14:01:57 [notice] 14660#18372: signal process started
+2023/10/18 14:01:57 [error] 14660#18372: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 14:02:08 [notice] 7176#19864: signal process started
+2023/10/18 14:02:08 [error] 7176#19864: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 14:02:35 [emerg] 9832#12400: no "events" section in configuration
+2023/10/18 14:02:44 [emerg] 6572#20012: unexpected "}" in C:\Users\duyti\nginx/conf/nginx.conf:8
+2023/10/18 14:02:52 [emerg] 10056#19224: unexpected "}" in C:\Users\duyti\nginx/conf/nginx.conf:8
+2023/10/18 14:02:59 [notice] 16344#1392: signal process started
+2023/10/18 14:02:59 [error] 16344#1392: OpenEvent("Global\ngx_reload_17880") failed (2: The system cannot find the file specified)
+2023/10/18 14:04:10 [notice] 12464#20468: signal process started
+2023/10/18 14:04:15 [crit] 17704#1468: *1 GetFileAttributesEx() "C:\Users\duyti
+ginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/10/18 14:04:21 [crit] 17704#1468: *3 GetFileAttributesEx() "C:\Users\duyti
+ginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:04:24 [crit] 17704#1468: *4 GetFileAttributesEx() "C:\Users\duyti
+ginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:05:31 [notice] 11272#3404: signal process started
+2023/10/18 14:06:42 [error] 19404#12580: *6 directory index of "C:\Users\duyti/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:07:01 [notice] 19368#16724: signal process started
+2023/10/18 14:07:06 [error] 19404#12580: *9 directory index of "C:\Users\duyti/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:07:07 [crit] 17364#14404: *10 GetFileAttributesEx() "C:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:08:05 [notice] 2332#2728: signal process started
+2023/10/18 14:08:08 [crit] 18120#14324: *12 GetFileAttributesEx() "c:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:08:09 [crit] 18120#14324: *13 GetFileAttributesEx() "c:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:08:10 [crit] 18120#14324: *14 GetFileAttributesEx() "c:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/18 14:08:27 [notice] 15276#13488: signal process started
+2023/10/18 14:08:31 [crit] 18120#14324: *15 GetFileAttributesEx() "c:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/19 12:34:29 [error] 19876#13148: *1 CreateFile() "c:\Users\duyti/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/19 12:35:28 [notice] 11480#17828: signal process started
+2023/10/19 12:35:32 [crit] 16728#15096: *3 GetFileAttributesEx() "c:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/19 12:35:34 [crit] 16728#15096: *4 GetFileAttributesEx() "c:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/19 12:35:35 [crit] 16728#15096: *5 GetFileAttributesEx() "c:\Users\duyti	est-nginx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/10/19 12:36:32 [notice] 21068#16988: signal process started
+2023/10/19 12:49:27 [notice] 17512#15104: signal process started
+2023/10/19 12:52:24 [emerg] 1104#1116: directive "include" is not terminated by ";" in C:\Users\duyti\nginx/conf/nginx.conf:4
+2023/10/19 12:52:32 [notice] 16948#19912: signal process started
+2023/10/19 12:53:34 [error] 16432#14676: *13 CreateFile() "c:\Users\duyti\okbaby/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/23 17:41:25 [error] 20200#14560: *1 CreateFile() "c:\Users\duyti\okbaby/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/23 18:13:01 [notice] 10436#17748: signal process started
+2023/10/23 18:16:17 [notice] 19428#20272: signal process started
+2023/10/23 18:19:43 [notice] 2112#20012: signal process started
+2023/10/23 18:19:53 [error] 20236#19304: *10 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:20:37 [notice] 7736#7580: signal process started
+2023/10/23 18:20:41 [error] 20236#19304: *11 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:20:43 [error] 20236#19304: *12 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:21:13 [notice] 10524#2508: signal process started
+2023/10/23 18:21:24 [error] 16588#10384: *13 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:21:25 [error] 19220#13308: *14 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:22:30 [notice] 15492#9432: signal process started
+2023/10/23 18:22:34 [error] 17692#6368: *16 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:24:52 [notice] 10404#12208: signal process started
+2023/10/23 18:25:15 [error] 16884#19444: *19 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:25:24 [notice] 10932#7532: signal process started
+2023/10/23 18:25:26 [error] 16884#19444: *20 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:25:28 [error] 16884#19444: *21 directory index of "c:\Users\duyti\okbaby/vegetables/" is forbidden, client: 127.0.0.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost:8080"
+2023/10/23 18:28:51 [notice] 18752#17012: signal process started
+2023/10/23 18:28:59 [error] 18884#18184: *24 CreateFile() "c:\Users\duyti\okbaby/count/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /count/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/count/1"
+2023/10/23 18:29:03 [error] 18884#18184: *24 CreateFile() "c:\Users\duyti\okbaby/count/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /count/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/count/2"
+2023/10/23 18:29:06 [error] 18884#18184: *24 CreateFile() "c:\Users\duyti\okbaby/count/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /count/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/count/3"
+2023/10/23 18:29:15 [notice] 18936#14432: signal process started
+2023/10/23 18:29:18 [error] 18884#18184: *26 CreateFile() "c:\Users\duyti\okbaby/count/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /count/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/count/3"
+2023/10/23 18:30:59 [notice] 14388#14316: signal process started
+2023/10/23 23:45:06 [error] 14596#21712: *1 CreateFile() "c:\Users\duyti\okbaby/docs" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /docs HTTP/1.1", host: "localhost:8080"
+2023/10/23 23:45:06 [error] 14596#21712: *1 CreateFile() "c:\Users\duyti\okbaby/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/docs"
+2023/10/23 23:45:12 [error] 14596#21712: *1 CreateFile() "c:\Users\duyti\okbaby/crops" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /crops HTTP/1.1", host: "localhost:8080"
+2023/10/23 23:45:28 [notice] 17028#19328: signal process started
+2023/10/23 23:45:33 [error] 14596#21712: *2 CreateFile() "c:\Users\duyti\okbaby/crops" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /crops HTTP/1.1", host: "localhost:8080"
+2023/10/23 23:45:36 [error] 14596#21712: *3 CreateFile() "c:\Users\duyti\okbaby/crops" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /crops HTTP/1.1", host: "localhost:8080"
+2023/10/23 23:53:02 [notice] 15708#10288: signal process started
+2023/10/23 23:53:14 [error] 1568#20844: *6 CreateFile() "c:\Users\duyti\okbaby/count/styles" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /number/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/number/3"
+2023/10/23 23:53:19 [error] 1568#20844: *6 CreateFile() "c:\Users\duyti\okbaby/count/styles" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /number/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/number/5"
+2023/10/23 23:54:38 [notice] 9508#15324: signal process started
+2023/10/23 23:55:16 [notice] 22380#13864: signal process started
+2023/10/23 23:55:46 [notice] 18188#14520: signal process started
+2023/10/23 23:56:11 [notice] 5228#11984: signal process started
+2023/10/23 23:56:29 [notice] 3244#3912: signal process started
+2023/10/23 23:57:54 [notice] 21920#9804: signal process started
+2023/10/25 09:14:33 [error] 19984#21784: *1 CreateFile() "c:\Users\duyti\okbaby/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/fruits/"
+2023/10/25 09:15:36 [notice] 18460#17992: signal process started
+2023/10/25 09:55:50 [notice] 10944#13196: signal process started
+2023/10/25 10:00:35 [notice] 3296#22704: signal process started
+2023/10/25 10:00:35 [emerg] 21736#20096: CreateFile() "C:/var/log/nginx/round_robin_access.log" failed (3: The system cannot find the path specified)
+2023/10/25 10:03:32 [notice] 20236#5344: signal process started
+2023/10/25 10:07:54 [emerg] 21604#21360: unknown log format "round_robin" in C:\Users\duyti\nginx/conf/nginx.conf:23
+2023/10/25 10:08:41 [notice] 22548#13484: signal process started
+2023/10/25 10:27:43 [notice] 22848#20452: signal process started
+2023/10/25 10:30:55 [notice] 17992#24340: signal process started
+2023/10/25 10:47:31 [notice] 15124#19704: signal process started
+2023/10/25 11:33:36 [notice] 15564#17736: signal process started
+2023/10/25 11:33:36 [error] 15564#17736: invalid PID number "" in "C:\Users\duyti\nginx/logs/nginx.pid"
+2023/10/25 11:34:06 [notice] 5208#7628: signal process started
+2023/10/26 00:33:34 [error] 20492#22688: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:1111/", host: "localhost:8080"
+2023/10/26 00:33:36 [error] 20492#22688: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:2222/", host: "localhost:8080"
+2023/10/26 00:33:38 [error] 20492#22688: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3333/", host: "localhost:8080"
+2023/10/26 00:33:40 [error] 20492#22688: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4444/", host: "localhost:8080"
+2023/10/26 00:33:40 [error] 20492#22688: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/26 00:34:00 [notice] 26972#6044: signal process started
+2023/10/26 00:34:05 [error] 20492#22688: *2 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4444/", host: "localhost:8080"
+2023/10/26 00:34:07 [error] 20492#22688: *2 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3333/", host: "localhost:8080"
+2023/10/26 00:34:09 [error] 20492#22688: *2 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:2222/", host: "localhost:8080"
+2023/10/26 00:34:11 [error] 20492#22688: *2 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:1111/", host: "localhost:8080"
+2023/10/26 00:34:11 [error] 20492#22688: *4 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/26 00:57:46 [error] 24956#20744: *12 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:1111/", host: "localhost:8080"
