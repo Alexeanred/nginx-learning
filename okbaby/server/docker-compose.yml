@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app1:
+    image: myserver:latest
+    ports:
+      - "1111:7777"
+      - "2222:7777"
+      - "3333:7777"
+      - "4444:7777"
+    restart: unless-stopped
+
